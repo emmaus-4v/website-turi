@@ -3,7 +3,7 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: rgb(255, 255, 255);  
     
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
@@ -37,7 +37,7 @@ footer {
 /* specifieke stijlen */
 
 img.zweefLinks {
-    float: left;
+    float: right;
     margin-right: 15px;
 }
 
@@ -84,6 +84,15 @@ nav li a.active {
     background-color: skyblue;
 }
 
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.belangrijk {
+    float: right;
+    margin-top: 70px;
+}
 
 
 
