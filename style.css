@@ -3,9 +3,9 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: rgb(255, 255, 255);  
-    
-    color: #303030;
+     
+    background-image: url("afbeelding/Water_1.jpg");
+    color: #000000;
     font: Verdana, Arial, Sans-Serif;
 }
 
@@ -23,7 +23,7 @@ article {
 
 
 header {
-    color: skyblue;
+    color: rgb(27, 179, 240);
     text-align: center;
 }
 
@@ -31,14 +31,49 @@ header {
 footer {
     text-align: center;
     padding-bottom: 10px;
+    clear: both;
 }
 
 
 /* specifieke stijlen */
 
 img.zweefLinks {
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px
+}
+
+img.zweefRechts {
     float: right;
     margin-right: 15px;
+    margin-left: 15px;
+}
+
+img.zweefMidden {
+    
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 300px;
+}
+.tekst_producten {
+
+    float:lefrt;
+}
+
+.Afbeeldingen_producten {
+    background-color: rgb(aqua);
+
+    
+}
+
+#Telefoniste {
+    border:1px solid #090089;
+    float: right;
+    margin-right: 15px;
+    margin-left: 15px;
+
 }
 
 .smalltext {
@@ -66,22 +101,24 @@ nav ul {
 
 nav ul li {
     float: left;
+    width: 140px;
 }
 
 nav li a {
     display: block;
-    color: white;
+    color: rgb(45, 76, 122);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 17px;
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #478edf;
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgb(151, 169, 209);
 }
 
 .logo {
