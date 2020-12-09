@@ -6,7 +6,7 @@ html, body {
      
     background-image: url("afbeelding/Water_1.jpg");
     color: #000000;
-    font: Verdana, Arial, Sans-Serif;
+    font: Sans-Serif;
 }
 
 
@@ -40,40 +40,53 @@ footer {
 img.zweefLinks {
     float: left;
     margin-right: 15px;
-    margin-left: 15px
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 img.zweefRechts {
     float: right;
     margin-right: 15px;
     margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 img.zweefMidden {
     
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-bottom: 15px;
     margin-top: 15px;
-    width: 300px;
-}
-.tekst_producten {
-
-    float:lefrt;
-}
-
-.Afbeeldingen_producten {
-    background-color: rgb(aqua);
-
+    width: 500px;
     
 }
+
+.product {
+    width: 230px;
+    float: left;
+}
+
+.productFoto {
+    width: 230px;
+}
+
 
 #Telefoniste {
     border:1px solid #090089;
     float: right;
     margin-right: 15px;
     margin-left: 15px;
+    width: 200px;
 
+}
+#jerrycan {
+    width: 150px;
+}
+
+.enter {
+    white-space: 5px;
 }
 
 .smalltext {
