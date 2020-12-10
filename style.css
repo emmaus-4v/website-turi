@@ -19,6 +19,7 @@ main {
 
 article {
     text-align: justify;
+    clear: both;
 }
 
 
@@ -64,12 +65,13 @@ img.zweefMidden {
 }
 
 .product {
-    width: 230px;
+    width: 200px;
     float: left;
+    margin: 10px;
 }
 
 .productFoto {
-    width: 230px;
+    height: 150px;
 }
 
 
