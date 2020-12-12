@@ -36,6 +36,14 @@ footer {
 }
 
 
+strong {
+    font-size: 20px;
+    color: rgb(44, 67, 170)
+    
+}
+
+
+
 /* specifieke stijlen */
 
 img.zweefLinks {
@@ -44,6 +52,7 @@ img.zweefLinks {
     margin-left: 15px;
     margin-bottom: 15px;
     margin-top: 15px;
+    border:1px solid #090089;
 }
 
 img.zweefRechts {
@@ -52,6 +61,7 @@ img.zweefRechts {
     margin-left: 15px;
     margin-bottom: 15px;
     margin-top: 15px;
+    border:1px solid #090089;
 }
 
 img.zweefMidden {
@@ -61,17 +71,25 @@ img.zweefMidden {
     margin-bottom: 15px;
     margin-top: 15px;
     width: 500px;
-    
+    border:1px solid #090089;
 }
+
+
 
 .product {
     width: 200px;
     float: left;
     margin: 10px;
+    text-align: center;
+}
+
+.producttekst {
+    color: rgb(0, 0, 0)
 }
 
 .productFoto {
     height: 150px;
+    
 }
 
 
@@ -83,12 +101,21 @@ img.zweefMidden {
     width: 200px;
 
 }
+
+.contactgegevens {
+    font-weight: bold;
+    color: #060149;
+    
+}
 #jerrycan {
     width: 150px;
 }
 
 .enter {
     white-space: 5px;
+}
+.space {
+    padding-bottom: 10px;
 }
 
 .smalltext {
