@@ -102,6 +102,15 @@ img.zweefMidden {
 
 }
 
+#imgMidden {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 200px;
+    border:1px solid #090089;
+}
+
 .contactgegevens {
     font-weight: bold;
     color: #060149;
@@ -109,6 +118,20 @@ img.zweefMidden {
 }
 #jerrycan {
     width: 150px;
+}
+
+.referentie1 {
+    border-top: 2px solid #000000;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 20px;
+    color: #060149;
+}
+
+.italic {
+    font-style: italic;
 }
 
 .enter {
