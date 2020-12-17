@@ -135,6 +135,16 @@ img.zweefMidden {
     width: 155px;
 }
 
+#Water {
+    width: 200px;
+    float: right;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border:1px solid #090089;
+}
+
 .enter {
     white-space: 5px;
 }
