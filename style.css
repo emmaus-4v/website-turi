@@ -41,7 +41,6 @@ strong {
 }
 
 
-
 /* specifieke stijlen */
 
 img.zweefLinks {
@@ -87,7 +86,7 @@ img.zweefMidden {
 
 .productFoto {
     height: 150px;
-    
+    border:1px solid #090089;
 }
 
 
@@ -155,7 +154,23 @@ a {
 a:hover {
     text-decoration: underline;
 }
+/*animation*/
 
+.T {
+    animation: Dampoe 15s infinite ;
+}
+
+@keyframes Dampoe {
+    0% {
+        color: rgb(255, 94, 0);
+    }
+    50% {
+        color: green;
+    }
+    100% {
+        color:  rgb(255, 196, 0);
+    }
+}
 
 /* navigatiebalk */
 nav ul {
@@ -191,6 +206,13 @@ nav li a.active {
 .logo {
     margin-left: auto;
     margin-right: auto;
+    
+}
+
+#logo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
 }
 
 .belangrijk {
